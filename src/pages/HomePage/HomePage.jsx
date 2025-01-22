@@ -1,13 +1,13 @@
 import './HomeStyles.css'
-import  GlassBackground from '../../components/GlassBackground.jsx'
+import  GlassBackground from '../../components/GlassBackground/GlassBackground.jsx'
 import logo from '../../assets/logo.svg'
-import NavBar from "../../components/NavBar.jsx";
+import NavBar from "../../components/NavBar/NavBar.jsx";
 
-function Home() {
+function HomePage() {
 
   return (
       <>
-
+          <NavBar/>
           <div className="home-page">
               <GlassBackground>
                   <h1>Discover Your Next</h1>
@@ -23,5 +23,5 @@ function Home() {
   )
 }
 
-export default Home;
+export default HomePage;
 

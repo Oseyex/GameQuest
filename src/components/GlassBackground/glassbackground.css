@@ -1,15 +1,15 @@
 .glass-background {
-    width: 2000px;
-    height: 400px;
+    width: 100vw;
+    height: 600px;
     padding: 30px 50px;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.027);
     backdrop-filter: blur(2px);
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-
     display: flex;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,42 +20,43 @@
 .glass-background h1 {
     font-family: 'poppins-thin', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 350;
     align-self: flex-start;
-    margin-top: 160px;
+    margin-top: 100px;
     margin-bottom: 1px;
 }
 
 .glass-background h2 {
     font-family: 'poppins-regular', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 350;
     align-self: flex-start;
     margin-top: 9px;
     margin-bottom: 20px;
 }
 .glass-background p {
-    margin-top: auto;
+    margin-bottom: 15px;
     font-family: 'poppins-light', sans-serif;
     color: rgba(171, 164, 164, 0.9);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     align-self: flex-start;
 }
 
 .glass-background img {
     align-self: center;
-    margin-top: -250px; /* Fine-tune this value as needed */
-    margin-left: 0px
-    box-shadow: 35px 10px 15px rgba(255, 255, 138, 1);
+    margin-top: -250px;
+    margin-left: 0;
+
 }
 .glass-background h3 {
     font-family: 'poppins-light', sans-serif;
     color: rgba(171, 164, 164, 0.75);
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 200;
     align-self: center;
-    transform: translateX(-15%); /* Center horizontally */
-    transform: translatey(-200%); /* Center horizontally */
+    transform: translateX(-15%);
+    transform: translatey(-150%);
+}

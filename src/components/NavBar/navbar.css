@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; /* Zorgt ervoor dat de navbar over de hele breedte gaat */
+    z-index: 10; /* Zorg ervoor dat de navbar bovenop de achtergrond komt */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Centraal uitlijnen in de navbar */
+    padding: 10px 20px; /* Ruimte binnenin de navbar */
+
+}
+
+.navbar ul {
+    display: flex; /* Zet de list-items naast elkaar */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    list-style: none;
+    color: white;
+    font-family: 'poppins-regular', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 40px;
+    /* Preventing links from turning blue */
+    a {
+        color: white !important; /* Ensures the link stays white */
+        text-decoration: none;   /* Optional: removes underline */
+    }
+
+    a:visited {
+        color: white !important; /* Ensures visited links stay white */
+    }
+
+    a:focus, a:active {
+        color: white !important; /* Ensures active links stay white */
+    }
+
+
+}
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import './GlassBackgroundStyles.css'
+import './glassbackground.css'
 
 function GlassBackground({children}) {
     return (
