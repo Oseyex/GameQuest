@@ -8,7 +8,7 @@ html, body {
   height: 100%;
 }
 .home-page {
-  background: linear-gradient(187deg, #C89477 20%, #25140B 80%); /*Straks uitzoeken hoe ik het precies als me figma ontwerp eruit kan laten zien*/
+  background: linear-gradient(187deg, #C89477 30%, #25140B 70%); /*Straks uitzoeken hoe ik het precies als me figma ontwerp eruit kan laten zien*/
   height: 100%;
   min-height: 100vh;  /* Zorg ervoor dat de achtergrond de hele pagina bedekt */
   position: relative; /* Zorg ervoor dat we de 'glass' component bovenop deze achtergrond kunnen plaatsen */

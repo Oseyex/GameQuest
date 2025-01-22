@@ -15,7 +15,6 @@ function HomePage() {
                   <p>Curate, explore and track your favorite games</p>
                   <img src={logo} alt={"logo"}/>
                   <h3>GAMEQUEST</h3>
-
               </GlassBackground>
           </div>
       </>
