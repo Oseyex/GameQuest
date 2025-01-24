@@ -1,4 +1,10 @@
 .glass-background {
+    display: grid;
+    grid-template-areas:
+        "logo"
+        "header"
+        "content";
+    grid-template-rows: auto auto 1fr;
     width: 100vw;
     height: 600px;
     padding: 30px 50px;
@@ -8,13 +14,39 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
-    display: flex;
-    z-index: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 20%;
+    position: relative;
+}
+
+.logo {
+    grid-area: logo;
+    justify-self: center; /* Pas de horizontale uitlijning aan */
+    align-self: start; /* Pas de verticale uitlijning aan */
+}
+
+.header {
+    grid-area: header;
+    justify-self: start;
+    align-self: center;
+}
+
+.content {
+    grid-area: content;
+    justify-self: center;
+    align-self: end;
+}
+
+}
+
+.padding-small {
+    padding: 10px;
+}
+
+.padding-medium {
+    padding: 20px;
+}
+
+.padding-large {
+    padding: 40px;
 }
 
 .glass-background h1 {
