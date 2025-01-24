@@ -1,0 +1,31 @@
+
+
+.Info-Bg {
+    background: linear-gradient(187deg, #C89477 30%, #25140B 70%); /*Straks uitzoeken hoe ik het precies als me figma ontwerp eruit kan laten zien*/
+    height: 100%;
+    min-height: 100vh;  /* Zorg ervoor dat de achtergrond de hele pagina bedekt */
+    position: relative; /* Zorg ervoor dat we de 'glass' component bovenop deze achtergrond kunnen plaatsen */
+    padding: 20px;
+}
+
+.Info-Container {
+    display: flex;
+    height: 90%;
+    width: 90%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.Info-Container h1{
+    flex:1
+}
+
+.Info-Container h2{
+    flex:1
+}
+
+.Info-Container h3{
+    flex:1
+}

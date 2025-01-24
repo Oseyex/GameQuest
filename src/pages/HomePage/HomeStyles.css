@@ -1,12 +1,3 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#root {
-  height: 100%;
-}
 .home-page {
   background: linear-gradient(187deg, #C89477 30%, #25140B 70%); /*Straks uitzoeken hoe ik het precies als me figma ontwerp eruit kan laten zien*/
   height: 100%;
