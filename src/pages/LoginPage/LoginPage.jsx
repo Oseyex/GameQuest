@@ -7,12 +7,15 @@ function LoginPage() {
     return (
         <>
             <NavBar/>
-            <GlassBackground>
-                <h1>Your Journey</h1>
-                <h2>Begins Here</h2>
-                <h3>gamequest</h3>
-                <img src={logo} alt={"logo"}/>
-            </GlassBackground>
+            <div className="login-container">
+                <GlassBackground>
+                    <h1>Your Journey</h1>
+                    <h2>Begins Here</h2>
+                    <h3>gamequest</h3>
+                    <img src={logo} alt={"logo"}/>
+                </GlassBackground>
+            </div>
+
 
         </>
 
