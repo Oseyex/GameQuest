@@ -1,7 +1,5 @@
-import React from 'react';
+import React from 'React';
 import './GlassCard.css'
-import React from 'react';
-import './glassbackground.css';
 
 function GlassCard({ children, className = "", align = "center", padding = "20px" }) {
     const alignmentClass = `align-${align}`;
